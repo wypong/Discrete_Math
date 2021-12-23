@@ -1,7 +1,7 @@
 # Dockerfile for binder
 # https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
 
-FROM sagemath/sagemath
+FROM sagemath/sagemath:9.1
 
 RUN sage -pip install jupyterlab
 
