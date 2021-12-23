@@ -1,7 +1,7 @@
 # Dockerfile for binder
 # https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
 
-FROM sagemath/sagemath:latest
+FROM sagemath/sagemath:9.1
 USER sage
 ENV HOME /home/sage
 RUN sage -pip install notebook
