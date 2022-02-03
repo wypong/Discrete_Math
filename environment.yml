@@ -6,4 +6,4 @@ channels:
 
 dependencies:
   - sage
-  - nbextensions
+  - jupyter_contrib_nbextensions
